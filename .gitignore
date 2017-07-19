@@ -1,4 +1,28 @@
-.Rproj.user
-.Rhistory
+# Source: https://github.com/github/gitignore/blob/master/R.gitignore
+# History files
 .RData
+.Rhistory
+.Rapp.history
+
+# Package build process
+*-Ex.R
+data.table_*.tar.gz
+data.table.Rcheck
+
+# RStudio files
+.Rproj.user
+*.Rproj
 .Ruserdata
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# object and shared objects
+*.o
+*.so
+
+*~
+.DS_Store
+.idea
+
